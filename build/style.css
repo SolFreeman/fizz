@@ -126,7 +126,7 @@ html {
     background-image: url("./assets/img/bonus-up_bg.jpg");
     background-size: 100% 100%; }
   .wrapper.tiger {
-    background-image: url("./assets/img/tiger_bg.jpg");
+    background-image: url("./assets/img/tiger_768x1024.jpg");
     background-size: 100% 100%; }
     @media (min-width: 768px) {
       .wrapper.tiger {
@@ -134,39 +134,45 @@ html {
     .wrapper.tiger:before {
       position: absolute;
       content: '';
-      background-image: url("./assets/img/tiger_ruy.png");
-      background-position: 50% 67%;
+      background-image: url("./assets/img/tiger_ruy_mobile.png");
+      background-position: 50% 50%;
       background-size: contain;
       left: 0;
-      top: 0;
+      top: 10%;
       width: 100%;
-      height: 100%;
+      height: 344px;
       animation: coinsPosition_1 14s infinite;
       background-repeat: no-repeat;
       z-index: 0; }
       @media (min-width: 768px) {
         .wrapper.tiger:before {
+          background-image: url("./assets/img/tiger_ruy.png");
           width: 88%;
           height: 88%;
-          margin: 5%; } }
+          margin: 5%;
+          top: 0;
+          background-position: 50% 67%; } }
     .wrapper.tiger:after {
       position: absolute;
       content: '';
-      background-image: url("./assets/img/tiger_coins.png");
-      background-position: 50% 67%;
+      background-image: url("./assets/img/tiger_coins_mobile.png");
+      background-position: 50% 0;
       background-size: contain;
       left: 0;
-      top: 0;
+      top: 10%;
       width: 100%;
-      height: 100%;
+      height: 540px;
       animation: coinsPosition_1 7s infinite;
       background-repeat: no-repeat;
       z-index: 0; }
       @media (min-width: 768px) {
         .wrapper.tiger:after {
+          background-image: url("./assets/img/tiger_coins.png");
           width: 88%;
           height: 88%;
-          margin: 5%; } }
+          margin: 5%;
+          top: 0;
+          background-position: 50% 67%; } }
     .wrapper.tiger > * {
       z-index: 1; }
   .wrapper.bonus-registration {

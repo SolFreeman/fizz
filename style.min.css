@@ -870,18 +870,11 @@ input[type=radio] {
       padding: 40px 15px 65px; } }
 
 .bonanza .logo-box {
-  max-width: 240px; }
-  @media (min-width: 767px) {
-    .bonanza .logo-box {
-      max-width: 350px; } }
+  max-width: 179px; }
 
 @media (min-width: 768px) {
   .bonanza .header .container {
     justify-content: center; } }
-
-@media (min-width: 992px) {
-  .bonanza .header .container {
-    justify-content: flex-start; } }
 
 .nav {
   position: relative;
@@ -3017,12 +3010,11 @@ html[lang=ko] .luck h1 {
   @media (min-width: 992px) {
     .bonanza .main-holder {
       padding: 0 15px 80px;
-      margin: -20px auto 0;
+      margin: 0 auto;
       height: 100%; } }
 
 .bonanza .img-holder {
-  margin: 0 0 20px;
-  max-width: 1300px; }
+  margin: 0 0 20px; }
   .bonanza .img-holder .desktop {
     display: none; }
   @media (min-width: 769px) {

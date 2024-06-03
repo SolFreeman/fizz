@@ -2695,3 +2695,15 @@ html[lang="ko"] {
 
 	}
 }
+
+.fizz_betting {
+	.main-holder {
+		transform: scale(1);
+	}
+}
+
+.betting_logo_holder {
+	@include media('>=769px') {
+		margin: 0 50px 0 -50px;		
+	}
+}
